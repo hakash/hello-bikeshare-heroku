@@ -1,0 +1,19 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": " simple example application for testing deployment to clouds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://githun.com/hakash/hello-world.git"
+  },
+  "author": "Morten Olsrud",
+  "license": "MIT",
+  "dependencies": {
+    "bysykkel": "^1.1.3",
+    "express": "^4.17.1"
+  }
+}

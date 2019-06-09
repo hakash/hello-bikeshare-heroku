@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>A useful Hello World!</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Hello Bikeshare Feeds!</h1>
+						<p>Welcome to this little Hello World demo for bike share feeds.</p>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Content -->
+							<section id="content" class="main">
+								<span class="image main" style="max-height: 400px; overflow:hidden;"><img src="/images/clique-studios-801434-unsplash.jpg" alt="" /></span>
+								<h2>Autodiscover</h2>
+								<p>
+									Fill in your <a href="https://github.com/NABSA/gbfs" target="_blank">GBFS</a> autodiscover address in the form to load some data into a table view. We have also provided a couple of pre-determined addresses if you don't want to go searching for a feed just to test the page.
+								</p>
+								<h3>Quick pick</h3>
+								<ul class="actions">
+									<li><button onclick="loadGbfs('https://gbfs.urbansharing.com/oslobysykkel.no/gbfs.json')" class="button">Oslo</a></li>
+									<li><button onclick="loadGbfs('https://gbfs.urbansharing.com/bergenbysykkel.no/gbfs.json')" class="button">Bergen</a></li>
+									<li><button onclick="loadGbfs('https://gbfs.urbansharing.com/edinburghcyclehire.com/gbfs.json')" class="button">Edinburgh</a></li>
+								</ul>
+								<hr>
+								<h3>Custom</h3>
+								<div class="row">
+									<div class="col-9">
+										<input type="text" id="custom_gbfs" placeholder="Autodiscover URL" onkeyup="submitGbfs(event);">
+									</div>
+									<div class="col-3 actions">
+										<button onclick="loadCustomGbfs();">Go!</button>
+									</div>
+								</div>
+								<hr>
+								<h3>Result</h3>
+								<div id="error_dialog" class="alert alert-warning" style="display:none"></div>
+								<div class="table-wrapper">
+									<table class="alt" id="feed_result">
+										<thead>
+											<tr class="align-text-bottom">
+												<th><br>Name</th>
+												<th><br>Address</th>
+												<th><br>Latitude</th>
+												<th><br>Longitude</th>
+												<th>Bikes<br>Available</th>
+												<th>Docks<br>Available</th>
+												<th><br>Capacity</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Station name</td>
+												<td>Main street 1, Someplace</td>
+												<td class="align-center">64.123423</td>
+												<td class="align-center">23.123123</td>
+												<td class="align-center">7</td>
+												<td class="align-center">13</td>
+												<td class="align-center">20</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>About this demo</h2>
+							<p>
+								This demo was made to demonstrate how a functioning micro-application with both a front-end and a back-end could be published in the cloud. The goal was to demonstrate the publishing process to the major public clouds.
+							</p>
+							<ul class="actions">
+								<li><a href="https://github.com/NABSA/gbfs" target="_blank" class="button">Learn More About <em>Bikeshare Feed</em></a></li>
+							</ul>
+						</section>
+						<section>
+							<h2>About the author</h2>
+							<p>
+								My name is Morten Olsrud, and I've been coding in some way or another for most of my life. Currently experimenting with writing technical articles for self publishing and as a freelancer, as well as the JavaScript stack with some VueJS on top.
+							</p>
+							<ul class="icons">
+								<li><a href="https://twitter.com/canis1980" target="_blank" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="https://stackoverflow.com/users/2599184/canis" target="_blank" class="icon brands fa-stack-overflow alt"><span class="label">Stack Overflow</span></a></li>
+								<li><a href="https://www.linkedin.com/in/mortenolsrud/" target="_blank" class="icon brands fa-linkedin alt"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/hakash" target="_blank" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="https://medium.com/@morten.olsrud" target="_blank" class="icon brands fa-medium alt"><span class="label">Medium</span></a></li>
+								<li><a href="https://dev.to/hakash" target="_blank" class="icon brands fa-dev alt"><span class="label">DEV.TO</span></a></li>
+								<li><a href="https://acodersthoughts.wordpress.com/" target="_blank" class="icon brands fa-wordpress alt"><span class="label">My Blog</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; Morten Olsrud. Design: <a href="https://html5up.net">HTML5 UP</a> & Morten Olsrud.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/bikeshare.js"></script>
+
+	</body>
+</html>
