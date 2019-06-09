@@ -1,14 +1,14 @@
 {
-  "name": "hello-world",
+  "name": "hello-bikeshare",
   "version": "1.0.0",
-  "description": " simple example application for testing deployment to clouds",
+  "description": "A simple example application for testing deployment to clouds",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://githun.com/hakash/hello-world.git"
+    "url": "https://github.com/hakash/hello-bikeshare.git"
   },
   "author": "Morten Olsrud",
   "license": "MIT",
