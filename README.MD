@@ -11,3 +11,5 @@ This application takes your chosen feed's autodiscover URL, and fetches it's dat
 If you do not want to download the project to test it, you can also check it out on glitch.me here:
 
 [https://hakash-hello-bikeshare.glitch.me/](https://hakash-hello-bikeshare.glitch.me/)
+
+If you just want to click a button to deploy it to your account on Heroku, I have you covered: [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
