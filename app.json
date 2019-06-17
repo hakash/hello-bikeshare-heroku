@@ -2,6 +2,6 @@
   "name": "Hello Bikeshare Feeds!",
   "description": "A simple hello world app using Bikeshare data to demonstrate cloud deployment.",
   "repository": "https://github.com/hakash/hello-bikeshare-heroku",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "logo": "https://avatars3.githubusercontent.com/u/8034094?s=460&v=4",
   "keywords": ["node", "express", "bikeshare","hello world"]
 }
